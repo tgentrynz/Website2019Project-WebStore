@@ -1,0 +1,120 @@
+textarea{
+    resize: none; 
+}
+
+html{
+    background-image: url('/storage/image/background');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+body{
+    background: none;
+}
+
+li{
+    text-transform: capitalize;
+}
+
+.navbar{
+    background-color: #3eb060;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(1, 1, 1, 1);
+  }
+  
+  .navbar-light .navbar-brand:hover,
+  .navbar-light .navbar-brand:focus {
+    color: rgba(1, 1, 1, 1);
+  }
+
+.navbar-brand{
+    color: rgba(1, 1, 1, 1);
+    /*#eafff5;*/
+    background-color: #3eb060;
+}
+
+.ibga-display-container{
+    margin-bottom : 50px;
+}
+
+.ibga-display-box{
+    position: relative;
+    width : 25%;
+    float : left;
+    padding : 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow : hidden;
+    color: #000;
+}
+.ibga-display-box:hover{
+    border-style : solid;
+    text-decoration: none;
+    color: #000;
+}
+
+.ibga-display-box-content{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.ibga-display-box-content:before{
+    content : "";
+    display : block;
+    padding-top : 100%;
+}
+
+.ibga-display-image{
+    width: 100%;
+    height: 100%;
+    position : absolute;
+    top : 0;
+    left : 0;
+    bottom : 0;
+    right : 0;
+}
+
+.ibga-display-text{
+    position: absolute;
+    bottom: 8%;
+    left: 8%;
+    padding-left : 8px;
+    padding-right : 8px;
+    background-color : rgba(255, 255, 255, 128)
+}
+
+.ibga-display-box-details{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ibga-display-bid-warning{
+    background-color: #e3342f;
+}
+
+.ibga-load-button{
+    display : none;
+}
+
+.ibga-image-holder{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 100%;
+}
+
+.ibga-image-holder img{
+    width: 100%;
+    height: 100%;
+    position : absolute;
+    top : 0;
+    left : 0;
+    bottom : 0;
+    right : 0;
+}
